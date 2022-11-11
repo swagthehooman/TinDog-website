@@ -1,0 +1,158 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*********headings****************/
+.title-heading{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    padding: 5% 0;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/************Sections***************/
+.coloured-section{
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/**********title section************/
+.container-fluid{
+    padding: 5% 12%;
+}
+#title .container-fluid{
+    padding-top: 3%;
+    text-align: left;
+    font-size:medium;
+}
+.iphone-img{
+    height: 90%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 18rem;
+}
+
+/**************Navigation bar***************/
+.navbar-brand{
+    font-size: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:400;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+.nav-links{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+/*********Download buttons*************/
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/******** features***********/
+#features{
+    position: relative;
+}
+.feature-title{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom:1rem ;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/********Testimonial section***********/
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+
+.testimonial-text{
+     font-size: 3rem;
+    line-height: 1.5;
+}
+/********Press section*********/
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 13%;
+    margin: 1.25rem 1.25rem 3.125rem;
+}
+
+/**********carousel items************/
+.carousel-item{
+    padding: 0 15%;
+}
+
+/**********Pricing ********/
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/********cta*************/
+
+
+/*********footer**********/
+.footer-icon{
+    margin: 1.25rem 0.625rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+@media (max-width: 1200px) {
+    
+    .iphone-img{
+        position:static;
+        transform: rotate(0deg);
+    }
+    h1{
+        text-align: center;
+    }
+}
